@@ -1,0 +1,8 @@
+0 Apple Scab
+1 Apple Black Rot
+2 Healthy
+3 Tomato Bacterial Spot
+4 Potato Early Blight
+5 Potato Healthy
+6 Tomato Early Blight
+7 Tomato Late Blight

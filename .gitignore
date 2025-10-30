@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter/IPython checkpoints
+.ipynb_checkpoints/
+
+# VSCode and other editor settings
+.vscode/
+.idea/
+
+# Logs and local data
+*.log
+*.sqlite3
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# Test reports
+.pytest_cache/
+coverage.xml
+.coverage
+
+# Render or deployment caches
+.render/
