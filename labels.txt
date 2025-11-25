@@ -1,6 +1,6 @@
 0 Healthy
 1 Strawberry Leaf Scorch
-2 Potato Late Blight
+2 Late Blight
 3 Bacterial Spot
 4 Black Rot
 5 Common Rust
