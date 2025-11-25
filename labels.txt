@@ -1,8 +1,8 @@
-0 Apple Scab
-1 Apple Black Rot
-2 Healthy
-3 Tomato Bacterial Spot
-4 Potato Early Blight
-5 Potato Healthy
-6 Tomato Early Blight
-7 Tomato Late Blight
+0 Healthy
+1 Strawberry Leaf Scorch
+2 Potato Late Blight
+3 Bacterial Spot
+4 Black Rot
+5 Common Rust
+6 Northern Leaf Blight
+7 Powdery Mild Dew
