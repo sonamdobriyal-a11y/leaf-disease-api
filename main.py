@@ -7,6 +7,8 @@ from typing import List
 import numpy as np
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.responses import JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
+
 from PIL import Image
 import tensorflow as tf
 
@@ -46,6 +48,15 @@ def _load_model() -> tf.keras.Model:
 
 
 app = FastAPI(title="Leaf Disease Classifier", version="1.0.0")
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 model = _load_model()
 labels = _load_labels()
